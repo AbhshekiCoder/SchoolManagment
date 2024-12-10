@@ -21,7 +21,7 @@ app.use(express.json())
 
 app.use(bodyParser.json())
 
-const url = process.env.url;
+const url = "mongodb+srv://projects:123456ytrewq@cluster0.0qqnloi.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 moongoose.connect(url);
 app.post('/Signup', Signup);
