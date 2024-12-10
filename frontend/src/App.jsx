@@ -3,7 +3,7 @@ import Signup from './Pages/Signup';
 import './style.css/pages_common.css';
 import { Router, Route, Routes, useNavigate, json } from 'react-router-dom';
 import Home from './Pages/Home';
-import Navbar  from './Components/navbar';
+import Navbar  from './Components/Navbar';
 import Teachers from './Pages/Teachers';
 import { useEffect, useState  } from 'react';
 
