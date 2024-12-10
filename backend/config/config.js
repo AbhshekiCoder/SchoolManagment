@@ -8,7 +8,7 @@ const URL = process.env.URL;
 
 
 function mongodbConnect(){
-    mongoose.connect(URL).then(()=>{
+    mongoose.connect("URL = mongodb+srv://projects:123456ytrewq@cluster0.0qqnloi.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0").then(()=>{
         console.log('connected');
 
     }).catch((err)=>{
