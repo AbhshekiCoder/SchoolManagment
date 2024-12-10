@@ -1,0 +1,410 @@
+.course-intro{
+    position: relative;
+    max-width: 1000px;
+    margin: auto;
+    min-height: 500px;
+    padding: 10px;
+    border-radius: 10px 10px;
+    background-color: green;
+   
+  
+
+    
+}
+
+.price{
+    display: grid;
+    justify-content: end;
+    margin-top: 20px;
+    
+   
+    
+    
+}
+.price-input{
+   width: 300px;
+  
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px 10px;
+    border-color: white;
+    color: black;
+    height: 150px;
+}
+.price-input>.cost{
+    margin-top: 20px;
+}
+.price-input>button{
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 10px 10px;
+    background-color: cyan;
+    color: white;
+    font-weight: bold;
+    height: 30px;
+}
+.heading>.intro-detail>h5{
+    max-width: 300px;
+    border-radius: 10px 10px;
+    height: 40px;
+    background-color: yellow;
+    color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading>.intro-detail>div{
+    margin-top: 20px;
+   
+}
+.tarining-heading{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+
+}
+.course-detail{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    
+}
+.language>i{
+    font-size: 30px;
+  
+    padding: 5px;
+    box-shadow: 0px 0px 10px white;
+   
+    
+    
+}
+.language{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.rating>.col-md{
+    border-radius: 20px 20px;
+    
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    background-color: white;
+    color: black;
+    align-items: center;
+    margin-left: 20px;
+   
+    font-weight: bold;
+    margin-top: 10px;
+    
+}
+#rating{
+    max-width: 100px;
+    
+}
+#rating>i{
+    color: gold;
+}
+#students{
+    max-width: 180px;
+}
+#placement{
+    max-width: 220px;
+}
+.schedule{
+    border-radius: 20px 20px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: white;
+    max-width: 300px;
+    border: solid 2px;
+    height: 40px;
+    font-weight: bold;
+}
+.offer{
+    color: black;
+    background-color: white;
+    border-radius: 10px 10px;
+    padding: 10px;
+}
+.coursedetail{
+    margin-top: 70px;
+    padding: 10px;
+}
+.coursedetail>.col-md>img{
+    max-width: 500px;
+    max-height: 500px;
+    padding: 10px;
+}
+.coursedetail>.col-md{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    
+}
+.point{
+    max-width: 600px;
+}
+.coursedetail>.col-md>.point>.sub-heading{
+    font-size: 25px;
+    color: black;
+
+}
+.point>.description{
+    color: rgb(90, 88, 88);
+    font-size: 20px;
+}
+.course-highlight{
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 30px;
+}
+.input-group{
+margin-top: 20px;
+display: flex;
+
+}
+.input-group>div{
+margin-left: 20px;
+}
+.input-type{
+margin-left: 100px;
+
+}
+.input-icon{
+
+
+width: 70px;
+height: 70px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: lightblue;
+font-size: 30px;
+color: blue;
+
+}
+@media(max-width: 768px){
+.course-highlight{
+    display: grid;
+    justify-content: center;
+}
+.input-label{
+    display: grid;
+    justify-content: center;
+   
+}
+.input-icon{
+    width: 50px;
+    height: 50px;
+}
+.input-group{
+    display: flex;
+    
+}
+.input-type{
+    font-size: 15px;
+}
+.coursedetail>.col-md>img{
+    max-width: 350px;
+    max-height: 350px;
+}
+
+}
+.syllabus-conatiner{
+max-width: 800px;
+margin: auto;
+
+display: grid;
+justify-content: center;
+padding: 10px;
+margin-top: 100px;
+}
+.syllabus-conatiner>h1{
+
+font-size: 30px;
+display: flex;
+justify-content: center;
+}
+.syllabus-conatiner>div{
+margin-top: 20px;
+}
+.syllabus-content{
+display: flex;
+
+align-items: center;
+}
+.syllabus-content>div{
+display: flex;
+margin-left: 20px;
+}
+.content-icon{
+
+width: 30px;
+height: 30px;
+}
+
+.introduction{
+border: solid 1px;
+padding: 10px;
+border-color: silver;
+}
+.introduction>div{
+margin-top: 20px;
+}
+
+.intro>.col-6{
+
+display: flex;
+justify-content: end;
+}
+.intro>.col-5{
+font-weight: bold;
+
+
+}
+.syllabus-list{
+overflow: hidden;
+height: 0px;
+transition: max-height 0.5s;
+}
+.syllabus-list>ol>li{
+margin-top: 10px;
+}
+.syllabuslist{
+max-height: 400px ;
+}
+.project{
+margin-top: 50px;
+max-width: 1200px;
+margin: auto;
+margin-bottom: 20px;
+padding: 10px;
+}
+.project>h1{
+display: flex;
+justify-content: center;
+}
+.projects{
+padding: 10px;
+column-gap: 20px;
+}
+.projects>.col-md{
+padding: 10px;
+border: solid 1px;
+border-color: silver;
+
+border-radius: 20px 20px;
+margin-top: 20px;
+}
+.projects>.col-md>div{
+margin-top: 20px;
+border-bottom: solid 2px blue;
+max-width: 200px;
+}
+.projects>.col-md>p{
+margin-top: 20px;
+}
+@media(max-width: 768px){
+
+.project>.col-md>p{
+    font-size: 15px;
+}
+.project>h1{
+    font-size: 18px;
+}
+
+}
+.course-overview{
+max-width: 1000px;
+margin: auto;
+margin-top: 50px;
+display: grid;
+justify-content: center;
+margin-bottom: 100px;
+padding: 10px;
+
+}
+.course-overview>h1{
+display: flex;
+justify-content: center;
+font-size: 30px;
+}
+
+
+
+@media print{
+html,
+body{
+    display: none;
+   
+}
+
+}
+html{
+user-select: none;
+
+}
+
+
+.coursedetail{
+
+width: 100%;
+
+}
+.course-overview{
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+    display: grid;
+    justify-content: center;
+    margin-bottom: 100px;
+    padding: 10px;
+    
+    }
+    .course-overview>h1{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    }
+    .content-hide{
+    max-height: 30px;
+    overflow: hidden;
+    
+    transition: max-height 0.5s;
+    padding: 10px;
+    
+    
+    }
+    .btn{
+    height: 50px;
+    width: 200px;
+    
+    color: blue;
+    
+    display: flex;
+    justify-content: start;
+    
+    
+    
+    }
+    .readless{
+    height: 50px;
+    width: 200px;
+    
+    color: blue;
+    
+    display: flex;
+    justify-content: start;
+    
+    }
+    #readless{
+    display: none;
+    
+    
+    
+    }

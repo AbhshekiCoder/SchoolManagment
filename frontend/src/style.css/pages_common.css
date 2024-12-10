@@ -1,0 +1,339 @@
+.main-container{
+  
+    width: 100%;
+    height: 100%;
+    
+   
+  
+    background-color: rgba(241, 241, 241, 1)
+   
+}
+.signup>div{
+    max-width: 512px;
+    margin: auto;
+   
+   
+   
+}
+.signup>h2{
+    color: rgba(79, 79, 79, 1);
+    font-weight: 600;
+    font-family: Kumbh Sans;
+    font-size: 36px;
+    margin: auto;
+    max-width: 656px;
+    margin-top: 50px;
+ 
+    text-align: center;
+    
+}
+.signup-form{
+    background-color: white;
+    height: 494px;
+    max-width: 512px;
+   
+    margin-top: 50px;
+   
+
+}
+.signup>div>.signup-form>form{
+    max-width: 300px;
+    margin: auto;
+    margin-top: 60px;
+   
+}
+.signup>div>.signup-form>form>p{
+    display: flex;
+    justify-content: center;
+    color:rgba(102, 112, 133, 1);
+    max-width: 230px;
+    font-weight: 500;
+    font-family: inter;
+    font-size: 16px;
+   
+    margin: auto;
+   padding-top: 72px;
+    
+    text-align: center;
+    
+}
+.signup>div>.signup-form>form>.form-item{
+    max-width: 100%;
+    margin-top: 30px;
+   
+    
+}
+.signup>div>.signup-form>form>.form-item>input{
+    height: 40px;
+    width: 100%;
+    border-radius: 4px;
+}
+.signup>div>.signup-form>form>div>button{
+    height: 40px;
+    width: 100%;
+    background-color:rgba(45, 136, 212, 1);
+    color: white;
+    border: none;
+
+}
+.signup-form>form>.item{
+    width: 100%;
+    margin-top: 20px;
+}
+.signup-form>form>.item>input{
+    width: 100%;
+    height: 40px;
+}
+label{
+    color: rgba(102, 112, 133, 1);
+    font-family: inter;
+}
+.item>div>select{
+    width: 100%;
+    height: 40px;
+}
+.sidebar{
+  max-width: 241px;
+  background-color: rgba(21, 34, 89, 1);
+  color: white;
+  
+}
+
+.sidebar_open{
+    animation: slide-right 2s  forwards;
+}
+.header{
+    margin-left: 20%;
+    
+}
+.header1-items{
+    margin-right: 30%;
+
+}
+.btn{
+    margin-left: 85vw;
+    margin-top: 90vh;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 30px;
+ 
+  
+}
+.btn>button{
+   
+    background-color: rgba(21, 34, 89, 1);
+    border-radius: 30px;
+   
+}
+.btn>button:hover{
+    box-shadow: 5px 5px 10px 2px rgba(101, 99, 99, 0.5);
+}
+.header1{
+    background-color: rgba(252, 250, 250, 1);
+   
+}
+#Navbar{
+  width: 100%;
+  
+  height:70px;
+  display: flex;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+ 
+}
+#logo{
+  width: 23%;
+  /* border: solid 2px; */
+}
+#logo>div{
+  width: 130px;
+  height: 100%;
+  margin-left: 100px;
+  /* border: solid 2px; */
+  
+}
+#logo>div>img{
+  height: 100%;
+  width: 100%;
+}
+#pages{
+  width: 75%;
+  /* height: 100%; */
+  display: flex;
+  justify-content: space-between;
+  /* border: solid 2px; */
+}
+#page{
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  /* border: solid 2px; */
+}
+#page>div{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  margin-right: 25px;
+  /* border: solid 1px; */
+}
+#c-hovered{
+    position:absolute;
+    top :71px;
+    left:23%;
+    background-color : white;
+    max-width: 500px;
+    /* border :solid 1px; */
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+#heading{
+  font-weight: 500;
+}
+#c-hovered>.courses-sections{
+  margin: 5px 0px;
+  padding: 10px 0 10px 10px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  /* border: solid 2px; */
+}
+#c-hovered>.courses-sections:hover{
+  color: #007bff;
+  background-color:#f0fbff;
+}
+#page>div>p{
+  font-size: 17px;
+  font-weight: 400;
+  /* border: solid 1px; */
+}
+#page>div>i{
+  font-size: 15px;
+  margin-left: 4px;
+  /* border: solid 1px; */
+}
+#search{
+  width: 45%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  /* border: solid 2px; */
+}
+#search>input{
+  height: 40px;
+  width: 250px;
+  font-size: 15px;
+  padding-left: 8px;
+  margin-left:35px;
+  border-radius: 4px ;
+  /* border: solid 1px; */
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+#search>input::placeholder{
+  font-weight: 500;
+  color: rgb(46, 42, 42);
+}
+#users{
+  display: flex;
+  align-items: center;
+  justify-content:start ;
+  /* border: solid 2px; */
+}
+#users>i{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+
+@media(max-width: 1100px){
+  #page{
+    display: none;
+  }
+  #search{
+    display: none;
+  }
+  #Navbar{
+    justify-content: space-between;
+    height:70px;
+    /* border: solid 2px red; */
+  }
+  #pages{
+    justify-content: end;
+    align-items: center;
+    margin-right: 20px;
+
+  }
+  #logo{
+    width: 150px;
+    /* border: solid 2px blue; */
+  }
+  #logo>div{
+    width: 130px;
+    height: 100%;
+    margin-left: 30px;
+    /* border: solid 2px; */
+  }
+  #users{
+    margin-right: 15px;
+  }
+  #users>i{
+    font-size: 20px;
+  }
+}
+
+@keyframes slide-right {
+    0%{
+        transform: translateX(-200px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+    
+}
+
+@media (max-width: 1200px){
+    .sidebar{
+        display: none;
+        margin-top: 70px;
+       
+    }
+    #sidebar_icon{
+        display: block;
+    }
+    #navbar{
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+    .header{
+        margin-top: 20px;
+    }
+    .header{
+        margin-left: 0;
+       
+    }
+    .header1-items{
+        width: fit-content;
+         margin-left: 5%;
+       
+    }
+    
+ 
+  
+   
+}
+@media(max-width: 768px){
+    .btn{
+        margin-left: 70vw;
+    }
+}
+
+@media(max-width: 479px) {
+    .btn{
+        margin-left: 50vw;
+    }
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
+
+
