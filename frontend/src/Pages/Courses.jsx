@@ -33,7 +33,7 @@ function Courses({role}){
         document.querySelector('.course-form').style.display = "block";
     }
    
-   
+  
     
    function topics(e){
       document.querySelector('.syllabus').style.display = "block";
@@ -45,6 +45,7 @@ function Courses({role}){
    function course_modal(){
     document.querySelector('.course-form').style.display = "none";
    }
+   
    function course(e){
   
     let from = document.forms['courses'];
@@ -71,13 +72,18 @@ function Courses({role}){
 
 
    }
-  
+   function topic_modal(){
+    document.querySelector('.topic_form').style.display = "none";
+   }
+
+
    useEffect(()=>{
     course_fetch();
     
     
     
    },[])
+   
 function modules_form(id, name){
     if(role == "Student"){
         alert("you are student do not permission to add course");
@@ -126,6 +132,9 @@ function img(e){
 
 
 }
+function syllabus_modal(){
+    document.querySelector('.syllabus-form').style.display = "none"
+}
 function btn(){
     alert("hello")
 }
@@ -155,7 +164,7 @@ function btn(){
         </div>
         <div className="content p-3">
             <table className="w-full ">
-                <tr >
+                <tr className="break-words " >
                     <th>name</th>
                     <th>details</th>
                     <th>Price</th>
@@ -164,11 +173,11 @@ function btn(){
                 </tr>
                 {courses?courses.map((Element) =>(
                   <tr className="mt-3 p-3 hover:bg-sky-500"  >
-                  <td>{Element.name}</td>
-                  <td className=" max-w-36 text-xs p-2">{Element.detail.substr(40)+'...'}</td>
+                  <td className=" break-words">{Element.name}</td>
+                  <td className=" max-w-36 text-xs p-2 break-words">{Element.detail.substr(40)+'...'}</td>
                   <td>{Element.price}</td>
 
-                  <td><button className="bg-sky-600 text-white w-fit p-2 h-9 rounded" id = {Element._id} onClick={()=>modules_form(Element._id, Element.name)} >Add topics</button></td>
+                  <td><button className="bg-sky-600 text-white w-fit p-2 h-9 rounded max-sm:h-6 max-sm:text-xs" id = {Element._id} onClick={()=>modules_form(Element._id, Element.name)} >Add topics</button></td>
                   </tr>
                 )):''}
             </table>
@@ -254,8 +263,10 @@ function btn(){
         </div>
        
     <div className="topic_form modal">
-    <div className="m-auto h-fit w-96">
-    <form id = "topic-form1 " className="w-full h-fit bg-white p-3" name="topic-form">   
+    <div className="m-auto h-fit max-w-96">
+   
+    <form id = "topic-form1 " className="w-full h-fit bg-white p-3" name="topic-form">  
+    <div className="flex justify-end"><i className='fa-solid fa-circle-xmark hover:text-xl' onClick={topic_modal}></i></div> 
     <div className="mt-3">
      <label>Add Module title</label>
      <div>
@@ -265,7 +276,7 @@ function btn(){
     
 
     </div>
-     <div id = "" className="border bg-sky-500 mt-6" onClick={topics_submit}>submit</div>
+     <div id = "" className="border bg-sky-500 mt-6 flex justify-center items-center text-white font-bold" onClick={topics_submit}>submit</div>
     </form>
 
     </div>
@@ -273,6 +284,7 @@ function btn(){
     </div>
 
     <div className="syllabus-form modal" >
+    <div className="flex justify-end"><i className='fa-solid fa-circle-xmark hover:text-xl' onClick={syllabus_modal}></i></div>
 
     <div className="m-auto h-fit w-96">
      <form className="w-full p-6 bg-white" name = "topic">
@@ -285,7 +297,7 @@ function btn(){
      <input type = "file" name = "img" onChange={img} />
 
      </div>
-     <div className="mt-3 " onClick={syllabus_submit}>submit</div>
+     <div className="mt-3  flex justify-center items-center text-white font-bold" onClick={syllabus_submit}>submit</div>
 
      </form>
     </div>
