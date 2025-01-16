@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
+import logo from '../Assets/logo.jpeg';
 function Header({Profile_Modal, user, title}){
 
     
@@ -25,7 +26,7 @@ function Header({Profile_Modal, user, title}){
     <div id = "Navbar" className = "sticky-top">
                 <div id="logo">
                     <div>
-                       <Link to = "/"><img src="blob:https://web.whatsapp.com/02b9f9d0-4ec0-43f6-9137-f1788bff4703" alt="" /></Link> 
+                       <Link to = "/"><img src={logo} alt="" /></Link> 
                     </div>
                 </div>
                 <div id="pages" >
