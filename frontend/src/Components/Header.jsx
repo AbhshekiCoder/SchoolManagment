@@ -25,7 +25,7 @@ function Header({Profile_Modal, user, title}){
     <div id = "Navbar" className = "sticky-top">
                 <div id="logo">
                     <div>
-                       <Link to = "/"><img src="https://sarvar8950.github.io/internshala_clone.github.io/images/internshala_logo.png" alt="" /></Link> 
+                       <Link to = "/"><img src="blob:https://web.whatsapp.com/02b9f9d0-4ec0-43f6-9137-f1788bff4703" alt="" /></Link> 
                     </div>
                 </div>
                 <div id="pages" >

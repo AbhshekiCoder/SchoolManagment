@@ -1,3 +1,3 @@
-let url = "https://schoolmanagment.onrender.com/"
+let url = "http://localhost:5000/"
 
 export default url;

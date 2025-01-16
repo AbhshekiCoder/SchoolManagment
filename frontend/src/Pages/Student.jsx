@@ -43,6 +43,7 @@ function Student({role}){
     function array(){
         let result = axios.post('http://localhost:5000/Students').then(result =>{
             setData(result.data);
+            console.log(result.data)
             
            
         })
@@ -90,6 +91,7 @@ function Student({role}){
             document.getElementById("loading").style.display = "none";
             document.querySelector('.stu-form').style.display = "none";
             setData(result.data.data);
+            
             
             
            },2000)
