@@ -25,8 +25,8 @@ function Header({Profile_Modal, user, title}){
     return (
     <div id = "Navbar" className = "sticky-top">
                 <div id="logo">
-                    <div>
-                       <Link to = "/"><img src={logo} alt="" /></Link> 
+                    <div className="">
+                       <Link to = "/"><img src={logo} alt=""  className="  h-16 w-36"/></Link> 
                     </div>
                 </div>
                 <div id="pages" >
